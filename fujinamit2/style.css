@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* reset */
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+/* container */
+.switch-count {
+}
+
+/* count */
+.count {
+}
+
+/* switch */
+.switch {
+}
+.switch li {
+	display: inline-block;
+	border: 1px solid black;
+}
+.switch a {
+	display: block;
+	width: 50px;
+	height: 50px;
+
+	overflow: hidden;
+	height: 0;
+	padding-top: 50px;
+	line-height: 2;
+}
+.switch li.is-selected a {
+	background-color: red;
+}
